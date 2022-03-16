@@ -1,27 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Prompt:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&display=swap");
 
-.Panel{
-    padding-top: 2%;
-    padding-left: 30%;
+.Panel {
+  padding-top: 2%;
+  padding-left: 30%;
 }
 
-.obj{
-    padding-top: 5%;
-    padding-left: 20%;
+.obj img {
+  width: 100%;
+  height: auto;
 }
 
-.Read{
-    font-family: 'Oswald', sans-serif;
-    padding-left: 23%;
-    font-size: x-large;
-    padding-top: 0.2%;
-    padding-bottom: 0.2%;
+.Read {
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  cursor: pointer;
+  user-select: none;
 }
 
-.info{
-    margin-top: -430px;
-    padding-left: 50%;
-    font-size:30px;
-    font-family: 'Fira Sans', sans-serif;
+.info {
+  font-size: 30px;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+.info-mob {
+  display: none;
+}
+
+.comics-page {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+}
+@media (max-width: 768px) {
+  .comics-page {
+    grid-template-columns: 1fr;
+  }
+  .comics-image-wrapper {
+    margin-bottom: 1rem;
+  }
+  .info-mob {
+    display: block;
+  }
+  .info-comp {
+    display: none;
+  }
+}
+
+.comics-info-wrapper {
 }

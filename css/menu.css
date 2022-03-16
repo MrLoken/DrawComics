@@ -15,7 +15,7 @@ body {
   font-family: "Oswald", sans-serif;
   /*  Цвет, смещение вправо, смещение вниз, размытие  */
   box-shadow: rgba(0, 0, 0, 0.048) 0 2pt 4pt;
-  padding: 0 2rem 0 15%;
+  padding: 0 3rem;
 }
 
 .Logo {
@@ -46,6 +46,12 @@ body {
   flex-direction: row;
   padding: 0.5rem;
   margin-right: 0.6rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.item-wrapper.m0 {
+  margin-right: 0;
 }
 
 .item-img {

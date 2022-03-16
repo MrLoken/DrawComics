@@ -3,7 +3,7 @@ body {
 }
 
 .All_header_menu {
-  background-color: #202020;
+  background-color: #252525;
   color: #fff;
 }
 
@@ -11,15 +11,22 @@ body {
   background-color: #1c1c1c;
 }
 
-.Panel{
+.Panel {
   background-color: #242424;
 }
 
-.Read{
+.Read {
   background-color: #fff;
   color: rgb(19, 19, 19);
 }
 
-.info{
+.info {
   background-color: #fff;
+  color: rgb(19, 19, 19);
+}
+
+.nav,
+.main-block {
+  background-color: #252525;
+  color: #fff;
 }

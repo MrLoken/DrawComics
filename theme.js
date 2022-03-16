@@ -1,16 +1,18 @@
 const link = document.getElementById("theme-link");
-const LIGHT_THEME = "C:/Users/hasan/OneDrive/Рабочий стол/Drawcomics/css/light.css";
-const DARK_THEME = "C:/Users/hasan/OneDrive/Рабочий стол/Drawcomics/css/black.css";
+const LIGHT_THEME = "C:/Users/mc201/Desktop/DrawComics/css/light.css";
+const DARK_THEME = "C:/Users/mc201/Desktop/DrawComics/css/black.css";
 
 const THEME = "THEME";
 
-const GetTheme = () => {
+const GetTheme = () =>
+{
     const theme = localStorage.getItem(THEME);
     if(!theme) return window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
     return theme;
 }
 
-const initTheme = () => {
+const initTheme = () =>
+{
     let theme = GetTheme();
     let currTheme = "";
 
@@ -47,7 +49,8 @@ const ChangeTheme = () =>
     Save(theme);
 }
 
-const Save = (theme) => {
+const Save = (theme) =>
+{
     localStorage.setItem(THEME, theme);
 }
 
