@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.All_header_menu {
+  display: flex;
+  align-items: stretch;
+  font-weight: 200;
+  flex-direction: row;
+  font-family: "Oswald", sans-serif;
+  /*  Цвет, смещение вправо, смещение вниз, размытие  */
+  box-shadow: rgba(0, 0, 0, 0.048) 0 2pt 4pt;
+  padding: 0 2rem 0 15%;
+}
+
+.Logo {
+  display: inline-block;
+}
+
+.Top_menu {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex: auto;
+  justify-content: center;
+}
+
+.sas {
+  height: 40px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.item-wrapper {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  padding: 0.5rem;
+  margin-right: 0.6rem;
+}
+
+.item-img {
+  margin-right: 0.2rem;
+}
+
+.theme-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0.5rem;
+  margin-right: 0.6rem;
+  cursor: pointer;
+}

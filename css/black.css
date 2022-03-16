@@ -1,0 +1,25 @@
+body {
+  background-color: #1c1c1c;
+}
+
+.All_header_menu {
+  background-color: #202020;
+  color: #fff;
+}
+
+.item-wrapper:hover {
+  background-color: #1c1c1c;
+}
+
+.Panel{
+  background-color: #242424;
+}
+
+.Read{
+  background-color: #fff;
+  color: rgb(19, 19, 19);
+}
+
+.info{
+  background-color: #fff;
+}

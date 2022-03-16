@@ -1,0 +1,20 @@
+.text-white {
+  color: white;
+}
+
+.text-inher {
+  color: inherit;
+}
+
+.text-nodecor {
+  text-decoration: none;
+}
+
+.theme-button {
+  color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}

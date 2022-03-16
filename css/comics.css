@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&display=swap');
+
+.Panel{
+    padding-top: 2%;
+    padding-left: 30%;
+}
+
+.obj{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+.Read{
+    font-family: 'Oswald', sans-serif;
+    padding-left: 23%;
+    font-size: x-large;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+}
+
+.info{
+    margin-top: -430px;
+    padding-left: 50%;
+    font-size:30px;
+    font-family: 'Fira Sans', sans-serif;
+}
